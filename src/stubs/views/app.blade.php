@@ -18,7 +18,7 @@
         </script>
 
         <!-- Styles -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
         @yield('header')
     </head>
     <body class="theme-default bg-page">
@@ -32,6 +32,6 @@
 
         <!-- Scripts -->
         @yield('scripts')
-        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ mix('/js/app.js') }}"></script>
     </body>
 </html>
